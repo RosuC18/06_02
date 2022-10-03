@@ -16,16 +16,16 @@ public class Calculator {
         try {
             switch (op) {
                 case "+":
-                    result = addValues(s1, s2);
+                    result = addValues(string1, s2);
                     break;
                 case "-":
-                    result = subtractValues(s1, s2);
+                    result = subtractValues(string1, s2);
                     break;
                 case "*":
-                    result = multiplyValues(s1, s2);
+                    result = multiplyValues(string1, s2);
                     break;
                 case "/":
-                    result = divideValues(s1, s2);
+                    result = divideValues(string1, s2);
                     break;
                 default:
                     System.out.println("Unrecognized operation!");
